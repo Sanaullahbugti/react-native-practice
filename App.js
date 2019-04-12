@@ -4,6 +4,7 @@ import SliderExample from "./components/SliderExample";
 import { Image, StyleSheet, Text, View, ScrollView } from "react-native";
 import TouchableOpacityExample from "./components/TouchableOpacityExample";
 import ScrollableListExample from "./components/ScrollableListExample";
+import CameraExample from "./components/CameraExample";
 export default class App extends React.Component {
   state = {
     num: 0
@@ -24,7 +25,7 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
         <View style={{ backgroundColor: "blue", flex: 2 }}>
-          <ScrollableListExample />
+          <CameraExample />
         </View>
         <View style={{ backgroundColor: "yellow", flex: 3 }}>
           <SliderExample />
