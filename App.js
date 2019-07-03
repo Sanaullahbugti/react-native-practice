@@ -5,6 +5,7 @@ import { Image, StyleSheet, Text, View, ScrollView } from "react-native";
 import TouchableOpacityExample from "./components/TouchableOpacityExample";
 import ScrollableListExample from "./components/ScrollableListExample";
 import CameraExample from "./components/CameraExample";
+import LoadingImage from "./components/LoadingImage";
 export default class App extends React.Component {
   state = {
     num: 0
@@ -30,8 +31,9 @@ export default class App extends React.Component {
         <View style={{ backgroundColor: "yellow", flex: 3 }}>
           <SliderExample />
         </View>
-        <ButtonExmple />
-        <TouchableOpacityExample />
+        {/* <ButtonExmple /> */}
+        <LoadingImage/>
+        {/* <TouchableOpacityExample /> */}
       </View>
     );
   }
