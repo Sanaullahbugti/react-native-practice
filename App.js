@@ -3,8 +3,8 @@ import DatePickerExample from "./components/DatePickerExample";
 
 
 class App extends Component {
-  render() {
-    return <DatePickerExample />
-  }
+	render() {
+		return <DatePickerExample />
+	}
 }
 export default App;
