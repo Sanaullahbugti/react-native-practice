@@ -16,22 +16,19 @@ export default class DatePickerExample extends Component {
 				<Content>
 					<DatePicker
 						defaultDate={new Date(2018, 4, 4)}
-						minimumDate={new Date(2018, 1, 1)}
-						maximumDate={new Date(2018, 12, 31)}
+						minimumDate={new Date(1990, 1, 1)}
+						maximumDate={new Date(2010, 12, 31)}
 						locale={"en"}
 						timeZoneOffsetInMinutes={undefined}
 						modalTransparent={false}
 						animationType={"fade"}
 						androidMode={"default"}
-						placeHolderText="Select date"
+						placeHolderText="Select date of birth"
 						textStyle={{ color: "green" }}
 						placeHolderTextStyle={{ color: "#d3d3d3" }}
 						onDateChange={this.setDate}
 						disabled={false}
 					/>
-					<Text>
-						Date: {this.state.chosenDate.toString().substr(4, 12)}
-					</Text>
 				</Content>
 			</Container>
 		);

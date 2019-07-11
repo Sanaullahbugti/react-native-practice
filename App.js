@@ -1,10 +1,11 @@
 import React, { Component } from "react";
-import DatePickerExample from "./components/DatePickerExample";
+
+import RegiterationForm from "./components/RegiterationForm";
 
 
 class App extends Component {
 	render() {
-		return <DatePickerExample />
+		return <RegiterationForm/>
 	}
 }
 export default App;
